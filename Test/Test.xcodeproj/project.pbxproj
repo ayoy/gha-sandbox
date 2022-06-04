@@ -11,6 +11,7 @@
 		376C90AD284B31C100307296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C90AC284B31C100307296 /* ViewController.swift */; };
 		376C90AF284B31C200307296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376C90AE284B31C200307296 /* Assets.xcassets */; };
 		376C90B2284B31C200307296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376C90B0284B31C200307296 /* Main.storyboard */; };
+		37E8507F284B34C200CD7E38 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37E8507E284B34C200CD7E38 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		376C90AE284B31C200307296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		376C90B1284B31C200307296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		376C90B3284B31C200307296 /* Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Test.entitlements; sourceTree = "<group>"; };
+		37E8507E284B34C200CD7E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				376C90AE284B31C200307296 /* Assets.xcassets */,
 				376C90B0284B31C200307296 /* Main.storyboard */,
 				376C90B3284B31C200307296 /* Test.entitlements */,
+				37E8507E284B34C200CD7E38 /* Info.plist */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 			files = (
 				376C90AF284B31C200307296 /* Assets.xcassets in Resources */,
 				376C90B2284B31C200307296 /* Main.storyboard in Resources */,
+				37E8507F284B34C200CD7E38 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +275,9 @@
 				CODE_SIGN_ENTITLEMENTS = Test/Test.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
+				CURRENT_PROJECT_VERSION = 0.26.2;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Test/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -296,8 +301,9 @@
 				CODE_SIGN_ENTITLEMENTS = Test/Test.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
+				CURRENT_PROJECT_VERSION = 0.26.2;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Test/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
